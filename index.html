@@ -13,7 +13,11 @@
 					</a>
 				</div>
 				<div class="top-menu-search">
-					<!--form -->
+					<form method="get" action="#">
+					    <label class="visually-hidden" for="header-search">Поиск:</label>
+						<input type="search" name="header-search" id="header-search"
+							placeholder="Поиск:">
+					</form>
 				</div>
 				<ul class="top-menu-user-info">
 					<li><a class="btn user-bookmarks" href="#">Закладки: 0</a></li>
@@ -29,7 +33,7 @@
 					<p class="contact-adress">г. Санкт-Петербург, ул. Конюшенная, д. 19/8</p>
 				</div>
 				<ul class="bottom-menu-user-account">
-					<li class="btn user-login"><a href="#">Войти</a></li>
+					<li><a class="btn user-login" href="#">Войти</a></li>
 				    <li><a class="btn user-registration" href="#">Регистрация</a></li>
 				</ul>			
 			</div>
@@ -66,11 +70,11 @@
 						<p>Вы можете забрать товар сами,<br> 
                            заехав в наш офис:</p>
 						<div class="map-container">
-							<a href="#" class="adress-map">
+							<a href="modal-map.html" class="adress-map">
 								<img src="img/map.jpg" width="300" height="157" alt="Адрес на карте">
 							</a>
 						</div>
-						<a class="btn" href="">Заблудились? Напишите нам!</a>
+						<a class="btn" href="feedback.html">Заблудились? Напишите нам!</a>
 					</div>
 				</section>
 		</main>
