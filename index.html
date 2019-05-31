@@ -70,11 +70,11 @@
 						<p>Вы можете забрать товар сами,<br> 
                            заехав в наш офис:</p>
 						<div class="map-container">
-							<a href="modal-map.html" class="adress-map">
+							<a href="#" class="adress-map">
 								<img src="img/map.jpg" width="300" height="157" alt="Адрес на карте">
 							</a>
 						</div>
-						<a class="btn" href="feedback.html">Заблудились? Напишите нам!</a>
+						<a class="btn" href="#">Заблудились? Напишите нам!</a>
 					</div>
 				</section>
 		</main>
@@ -116,7 +116,35 @@
 			</div>
 			
 		</footer>
-		
-
+        <section class="modal modal-feedback">
+			<h2 class="visually-hidden">Заблудились? Напишите нам!</h2>            			
+			<form action="#" class="modal-feedback-form" method="post">
+				<p>
+					<label for="user-name">Ваше имя:</label>
+					<input class="feedback-user-name" id="user-name" type="text" name="user-name"
+						placeholder="Представтесь, пожалуйста">				    
+				</p>
+				<p>
+					<label for="user-email">Ваш e-mail:</label>
+					<input class="feedback-user-email" id="user-email" type="text" name="email"
+						placeholder="Для отправки ответа">
+				</p>
+				<p>
+					<label for="user-text">Текст письма</label><br>
+					<textarea  id="user-text"  name="textletter"
+						placeholder="В свободной форме" cols="50" rows="10"></textarea>
+				</p>
+				<button class="button" type="submit">Отправить</button>
+			</form>
+			<button class="modal-feedback-close" type="button">Закрыть</button>	        
+		</section>
+        <section class="modal modal-map">
+			<h2 class="visually-hidden">Как до нас добраться?</h2>		   
+			<p>
+				<img src="img/map.jpg" width="580" height="560" alt="Офис компании
+				по адресу:город Санкт-Петербург, улица Большая Конюшенная, дом 19/8">	
+			</p>				
+			<button class="modal-close" type="button">Закрыть</button>
+	    </section>
   </body>
 </html>
