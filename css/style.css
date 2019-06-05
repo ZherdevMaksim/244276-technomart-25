@@ -1,0 +1,439 @@
+body {
+	margin: 0;	
+	
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 17px;	
+	line-height: 17px;
+	color: #ffffff;
+	
+	background-color: #ffffff;
+}
+
+.main-header {	
+	font: inherit;
+	line-height: 18px;
+	color: #ffffff;
+	
+	background-color: #293449;
+}
+
+
+.logo{	
+	background-color: #ee3643;
+	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+}
+
+.logo:hover {	
+    background-color: #ca2c37;     
+}
+
+.logo:active{	
+	background-color: #ba2732;     
+}
+
+	
+input[type=search]{
+	
+	font: inherit;
+	font-weight: 400;
+    font-style: normal;
+	color:#ffffff;
+	
+	background-color: #293449;
+	border: none;
+}	
+
+
+input[type=search]:hover {
+	
+    background-color: #293449;
+    border: none;
+}
+
+input[type=search]:focus {
+    
+    background: #ffffff;    
+	outline: none;
+}
+
+.top-menu-user-info{
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn{
+	font: inherit;
+	
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;		
+	
+	border: none;
+}
+
+.user-bookmarks,
+.user-basket {
+	line-height: 18px;
+	
+	background-color: #293449;
+}
+
+.user-order {
+	line-height: 18px;
+	
+	background-color: #63a63e;
+}
+
+.user-bookmarks:hover,
+.user-basket:hover {	
+	background-color: #212a3a;
+}
+
+.user-order:hover {	
+	background-color: #5fbb2d;
+}
+
+.user-bookmarks:active,
+.user-basket:active {	
+	background-color: #161d29;
+}
+
+.user-order:active {	
+	background-color: #518534;
+}
+
+.bottom-menu{
+	background-color: #f4f7f9;
+}
+
+.page-title {	
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 16px;  
+  font-style: italic;  
+  line-height: 23px;  
+  color: #ee3643;
+}
+
+.contact {	
+	text-align: center;	
+}
+
+.contact-phone {
+	font-family: inherit;
+	font-size: 21px;
+	font-weight: normal;    
+    line-height: 18px;   
+    color: #ee3643;
+	
+	border: solid 3px #ffffff;
+}
+
+.contact-adress {
+	font-family: Cuprum, Arial, sans-serif;
+    font-size: 14px;  
+    line-height: 24px;
+    text-align: center;
+    color: #32425c;
+}
+
+.user-login,
+.user-registration {
+	font-family: Cuprum;
+    font-size: 21px;    
+    line-height: 1;    
+    color: #000000;
+  
+    background-color: #f1f5f7;
+
+}
+
+.user-login:hover,
+.user-registration:hover { 
+	color: #ee3643;
+}
+
+.user-login:active,
+.user-registration:active { 
+	color:rgba(0, 0, 0, 0.3)
+}
+.user-name {
+    font: inherit;
+    font-size: 21px;  
+    line-height: 21px; 
+    color: #000000;
+  
+    background-color: #ffffff;
+}
+
+.user-name:active {
+	color:rgba(0, 0, 0, 0.3);
+}
+
+.user-order-list,
+.user-login-room {
+	font: inherit;
+    font-size: 16px;  
+    color: #32425c;
+	text-decoration: underline;
+}
+
+.user-order-list:hover,
+.user-login-room:hover {
+	color: #ee3643;
+}
+
+.user-order-list:active,
+.user-login-room:active {
+	color: rgba(50, 66, 92, 0.3);
+}
+
+.main-navigation-menu {    
+    background-color: #32425c;
+	box-shadow: inset 0px -5px 0 0 #293449;
+}
+
+.site-navigation{
+	list-style: none;	
+}
+
+.site-navigation a {
+	font-family: inherit;
+    font-size: 17px;    
+    line-height: 17px;   
+    color: #ffffff;
+}
+
+.site-navigation a:hover {
+	background-color: #293449;
+}
+
+.site-navigation a:active{ 
+	color:rgba(255, 255, 255, 0.5);
+	background-color: #1d2739;
+}
+
+.company-title,
+.company-contact {
+	font: inherit;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.shipping p,
+.contact-company p {
+	font-family: PT Sans, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+	
+}
+
+.shipping-partner li{
+	font: inherit;	
+	font-size: 18px;
+	line-height: 40px;
+	color: #000000;
+}
+
+.button-about-company,
+.button-map{
+  font: inherit;
+  font-size: 14px;  
+  line-height: 18px;  
+  text-align: center;
+  color: #ffffff;
+  
+  background-color: #ee3643;
+  }
+  
+.button-about-company:hover,
+.button-map:hover {
+	background-color:#ca2c37;
+}
+
+.button-about-company:active,
+.button-map:active {
+	background-color:#ba2732;
+}
+
+.breadcrumbs {
+	list-style: none;
+}
+
+.breadcrumbs a,
+.breadcrums-current{
+	font-family: PT Sans, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;  
+    color: #000000;
+	text-transform: uppercase;
+}
+
+.filter fieldset {
+	border: none;
+}
+
+.filter legend {
+	font-family: PT Sans, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px; 
+    color: #000000;
+	text-transform: uppercase;
+}
+
+.filter-input + label {
+	list-style: none;
+    font-family: PT Sans,Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;  
+    color: #000000;
+	text-transform: uppercase;
+}
+
+.filter-input:disabled + label {	  
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.filter-button {
+	font-family: PT Sans,Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px; 
+    text-align: center;
+    color: #000000;
+	text-transform: uppercase;
+	
+	border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+}
+.catalog-list {
+	font-family: PT Sans,Arial, sans-serif;
+    font-size: 17px;  
+	font-weight: bold;
+    line-height: 18px;  
+    color: #000000;
+	
+	background-color: #ffffff;
+}
+.list-item {	
+	text-align: center;
+	
+	border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+}
+
+.list-item a {
+	font-size: 18px;  
+	font-weight: bold;
+    line-height: 20px;
+	color: #000000;
+}
+
+.list-item del {
+	font-size: 17px;  
+	font-weight: bold;
+    line-height: 18px; 
+	color: #999999;
+}
+
+.list-item a:last-child {
+	font-size: 17px;  
+	font-weight: bold;
+    line-height: 18px; 
+	color: #ffffff;
+	
+	background-color: #ee3643;
+	background-image: url('../img/item-button.svg');
+	background-repeat: no-repeat;
+    
+}
+
+.main-footer {
+	background-color: #32425c;
+}
+
+.footer-contact,
+.footer-phone{
+	font: inherit;
+	font-size: 18px;    
+    line-height: 24px;    
+    color: #f3f7f9;
+}
+
+.footer-site-nav,
+.footer-company-nav {
+	list-style: none;
+}
+
+.footer-site-nav a,
+.footer-company-nav a{	 
+    font-family: inherit;
+    font-size: 18px; 
+    line-height: 24px;  
+    color: #f1f5f7;
+}
+
+.footer-company-nav a {
+    color:#ffd180;
+}
+
+.footer-site-nav a:hover,
+.footer-company-nav a:hover {
+	text-decoration: underline;
+}
+
+.footer-site-nav a:active {
+	text-decoration: none;
+	color: rgba(241, 245, 247, 0.5);
+}
+
+.footer-company-nav a:active {
+	text-decoration: none;
+	color: rgba(255, 209, 128, 0.5)
+}
+
+.footer-bottom {
+	background-color: #293449;
+}
+
+.footer-bottom p {
+	font: inherit;
+    font-size: 16px;  
+    line-height: 18px; 
+    color: #ffffff;
+}
+
+.social-buttons {	
+	text-align: center;
+}
+
+.social-buttons a{	
+	color: #ffffff;
+}
+
+.feedback,
+.about-design {
+	color:#ffd180;
+}
+
+.feedback:hover,
+.about-design:hover{
+	text-decoration: underline;
+}
+
+.feedback:active,
+.about-design:active {
+color:#ee3643;
+}
+
+
+
+
+
+
+
