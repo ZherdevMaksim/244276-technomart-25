@@ -3,20 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 		<header class="main-header">
 			<div class="top-menu">				
 				<div class="top-menu-logo">
 					<a class="logo" href="#">
-						<img src="img/logo.png" width="220" height="42" alt="Логотип компании Техномарт">
+						<img src="img/logo.png" width="109" height="19" alt="Логотип компании Техномарт">
 					</a>
 				</div>
 				<div class="top-menu-search">
 					<form method="get" action="#">
 					    <label class="visually-hidden" for="header-search">Поиск:</label>
 						<input type="search" name="header-search" id="header-search"
-							placeholder="Поиск:">
+						placeholder="Поиск:">
 					</form>
 				</div>
 				<ul class="top-menu-user-info">
@@ -59,14 +63,15 @@
 						   Техномарт работает со многими транспортными компаниями:</p>
 						   
 						<ul class="shipping-partner">
-							<li><a href="#">Деловые линии</a></li>
-							<li><a href="#">Автотрейдинг</a></li>
-							<li><a href="#">ЖелДорЭкспедиция</a></li>
+						    <li>Деловые линии</li>
+							<li>Автотрейдинг</li>
+					        <li>ЖелДорЭкспедиция</li>
 						</ul>
 						
-						<a class="btn" href="#">Подробнее о компании</a>
+						<a class="btn button-about-company" href="#">Подробнее о компании</a>
 					</div>
 					<div class="contact-company">
+						<h2 class="company-contact">Контакты</h2>
 						<p>Вы можете забрать товар сами,<br> 
                            заехав в наш офис:</p>
 						<div class="map-container">
@@ -74,14 +79,16 @@
 								<img src="img/map.jpg" width="300" height="157" alt="Адрес на карте">
 							</a>
 						</div>
-						<a class="btn" href="#">Заблудились? Напишите нам!</a>
+						<a class="btn button-map" href="#">Заблудились? Напишите нам!</a>
 					</div>
 				</section>
 		</main>
 		<footer class="main-footer">
 		    <div class="footer-up">
 				<div class="footer-menu-logo">
-					<a class="logo">Техномарт</a>
+					<a class="logo" href="#">
+						<img src="img/logo.png" width="109" height="19" alt="Логотип компании Техномарт">
+					</a>
 					<p class="footer-contact">г. Санкт-Петербург, ул. Конюшенная, д. 19/8</p>
 					<b class="footer-phone">+7(812)555-05-55</b>
 				</div>
@@ -109,10 +116,10 @@
 					<a class="btn-social" href="http://facebook.com">Facebook</a>
 					<a class="btn-social" href="http://instagram.com">Instagram</a>
 				</div>
-				<p class="feedback">Обратная связь:<br>
-				inf0@technomart.ru</p>
-				<p class="about-design">Дизайн сайта:<br>
-				Glukhanko.ru</p>
+				<p>Обратная связь:<br>
+					<a href="#" class="feedback">inf0@technomart.ru</a></p>
+				<p>Дизайн сайта:<br>
+					<a href="#" class="about-design">Glukhanko.ru</a></p>
 			</div>
 			
 		</footer>
