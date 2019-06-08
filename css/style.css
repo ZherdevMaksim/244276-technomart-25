@@ -2,16 +2,16 @@ body {
 	margin: 0;	
 	
 	font-family: "Cuprum", Arial, sans-serif;
-	font-size: 17px;	
-	line-height: 17px;
-	color: #ffffff;
+	font-size: 13px;	
+	line-height: 1.85;
+	color: #000000;
 	
 	background-color: #ffffff;
 }
 
 .main-header {	
-	font: inherit;
-	line-height: 18px;
+	font-size: 17px;
+	line-height: 1.06;
 	color: #ffffff;
 	
 	background-color: #293449;
@@ -32,9 +32,7 @@ body {
 }
 
 	
-input[type=search]{
-	
-	font: inherit;
+input[type=search]{	
 	font-weight: 400;
     font-style: normal;
 	color:#ffffff;
@@ -44,29 +42,21 @@ input[type=search]{
 }	
 
 
-input[type=search]:hover {
-	
+input[type=search]:hover {	
     background-color: #293449;
     border: none;
 }
 
-input[type=search]:focus {
-    
+input[type=search]:focus {    
     background: #ffffff;    
 	outline: none;
 }
 
 .top-menu-user-info{
-	list-style: none;
+	list-style: none;	
 }
 
-a {
-	text-decoration: none;
-}
-
-.btn{
-	font: inherit;
-	
+.btn{	
 	text-align: center;
 	color: #ffffff;
 	vertical-align: middle;		
@@ -76,23 +66,28 @@ a {
 
 .user-bookmarks,
 .user-basket {
-	line-height: 18px;
+	line-height: 1.06;
+	text-decoration: none;
 	
 	background-color: #293449;
 }
 
 .user-order {
-	line-height: 18px;
+	line-height: 1.06;
+	text-decoration: none;
 	
 	background-color: #63a63e;
 }
 
 .user-bookmarks:hover,
-.user-basket:hover {	
+.user-basket:hover,
+.user-bookmarks:focus,
+.user-basket:focus {	
 	background-color: #212a3a;
 }
 
-.user-order:hover {	
+.user-order:hover,
+.user-order:focus {	
 	background-color: #5fbb2d;
 }
 
@@ -110,43 +105,41 @@ a {
 }
 
 .page-title {	
-  font-family: inherit;
-  font-weight: normal;
-  font-size: 16px;  
-  font-style: italic;  
-  line-height: 23px;  
-  color: #ee3643;
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 16px;  
+	font-style: italic;  
+	line-height: 1.44;  
+	color: #ee3643;
 }
 
 .contact {	
 	text-align: center;	
 }
 
-.contact-phone {
-	font-family: inherit;
+.contact-phone {	
 	font-size: 21px;
 	font-weight: normal;    
-    line-height: 18px;   
+    line-height: 1;   
     color: #ee3643;
 	
 	border: solid 3px #ffffff;
 }
 
-.contact-adress {
-	font-family: Cuprum, Arial, sans-serif;
+.contact-adress {	
     font-size: 14px;  
-    line-height: 24px;
+    line-height: 1.71;
     text-align: center;
     color: #32425c;
 }
 
 .user-login,
-.user-registration {
-	font-family: Cuprum;
+.user-registration {	
     font-size: 21px;    
     line-height: 1;    
     color: #000000;
-  
+    text-decoration: none;
+	
     background-color: #f1f5f7;
 
 }
@@ -165,6 +158,7 @@ a {
     font-size: 21px;  
     line-height: 21px; 
     color: #000000;
+	text-decoration: none;
   
     background-color: #ffffff;
 }
@@ -174,8 +168,7 @@ a {
 }
 
 .user-order-list,
-.user-login-room {
-	font: inherit;
+.user-login-room {	
     font-size: 16px;  
     color: #32425c;
 	text-decoration: underline;
@@ -203,8 +196,9 @@ a {
 .site-navigation a {
 	font-family: inherit;
     font-size: 17px;    
-    line-height: 17px;   
+    line-height: 1;   
     color: #ffffff;
+	text-decoration: none;
 }
 
 .site-navigation a:hover {
@@ -220,39 +214,46 @@ a {
 .company-contact {
 	font: inherit;
 	font-size: 30px;
-	line-height: 30px;
+	line-height: 1;
 	color: #000000;
+	text-transform: uppercase;
 }
 
 .shipping p,
 .contact-company p {
 	font-family: PT Sans, Arial, sans-serif;
 	font-size: 13px;
-	line-height: 24px;
+	line-height: 1.85;
 	color: #000000;
 	
 }
 
 .shipping-partner li{
+	padding-top: 0;
+	padding-bottom: 23px;
+	
 	font: inherit;	
 	font-size: 18px;
 	line-height: 40px;
 	color: #000000;
+	
 }
 
 .button-about-company,
-.button-map{
-  font: inherit;
+.button-map{  
   font-size: 14px;  
-  line-height: 18px;  
+  line-height: 1.29;  
   text-align: center;
   color: #ffffff;
+  text-decoration: none;
   
   background-color: #ee3643;
   }
   
 .button-about-company:hover,
-.button-map:hover {
+.button-map:hover,
+.button-about-company:focus,
+.button-map:focus{
 	background-color:#ca2c37;
 }
 
@@ -269,9 +270,10 @@ a {
 .breadcrums-current{
 	font-family: PT Sans, Arial, sans-serif;
     font-size: 13px;
-    line-height: 18px;  
+    line-height: 1.38;  
     color: #000000;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .filter fieldset {
@@ -282,7 +284,7 @@ a {
 	font-family: PT Sans, Arial, sans-serif;
     font-size: 17px;
     font-weight: bold;
-    line-height: 30px; 
+    line-height: 1.76; 
     color: #000000;
 	text-transform: uppercase;
 }
@@ -291,7 +293,7 @@ a {
 	list-style: none;
     font-family: PT Sans,Arial, sans-serif;
     font-size: 15px;
-    line-height: 20px;  
+    line-height: 1.33;  
     color: #000000;
 	text-transform: uppercase;
 }
@@ -315,7 +317,7 @@ a {
 	font-family: PT Sans,Arial, sans-serif;
     font-size: 17px;  
 	font-weight: bold;
-    line-height: 18px;  
+    line-height: 1.11;  
     color: #000000;
 	
 	background-color: #ffffff;
@@ -332,6 +334,7 @@ a {
 	font-weight: bold;
     line-height: 20px;
 	color: #000000;
+	text-decoration: none;
 }
 
 .list-item del {
@@ -371,11 +374,11 @@ a {
 }
 
 .footer-site-nav a,
-.footer-company-nav a{	 
-    font-family: inherit;
+.footer-company-nav a{    
     font-size: 18px; 
     line-height: 24px;  
     color: #f1f5f7;
+	text-decoration: none;
 }
 
 .footer-company-nav a {
@@ -414,11 +417,13 @@ a {
 
 .social-buttons a{	
 	color: #ffffff;
+	text-decoration: none;
 }
 
 .feedback,
 .about-design {
 	color:#ffd180;
+	text-decoration: none;
 }
 
 .feedback:hover,
@@ -428,7 +433,8 @@ a {
 
 .feedback:active,
 .about-design:active {
-color:#ee3643;
+    color:#ee3643;
+	text-decoration: none;
 }
 
 
