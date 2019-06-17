@@ -9,16 +9,41 @@ body {
 	background-color: #ffffff;
 }
 
-.main-header {	
+
+
+.main-header {
+	padding-bottom: 40px;
+	width: 100%;    
 	font-size: 17px;
 	line-height: 1.06;
 	color: #ffffff;
 	
 	background-color: #293449;
+	background-color: #f4f7f9;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
+.header-top {	
+	margin-bottom: 45px;	
+	background-color: #293449;
+}
 
-.logo{	
+.top-menu {
+	display: flex;
+}
+
+.top-menu-logo {
+	
+	
+	}
+	
+
+.logo{		
+	padding: 0;
 	background-color: #ee3643;
 	box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 }
@@ -31,6 +56,9 @@ body {
 	background-color: #ba2732;     
 }
 
+.top-menu-search {
+	width: 260px;	
+}
 	
 input[type=search]{	
 	font-weight: 400;
@@ -53,6 +81,11 @@ input[type=search]:focus {
 }
 
 .top-menu-user-info{
+	display: flex;
+	justify-content: flex-end;
+	width: 460px;
+	margin: 0;
+	
 	list-style: none;	
 }
 
@@ -101,23 +134,32 @@ input[type=search]:focus {
 }
 
 .bottom-menu{
+	display: flex;	
+	margin-bottom: 45px;
+	
 	background-color: #f4f7f9;
 }
 
-.page-title {	
+.page-title {
+	width: 200px;	
+	margin: 0;	
+	margin-left: 52px;
 	font-family: inherit;
+	font-size: 16px; 
 	font-weight: normal;
-	font-size: 16px;  
 	font-style: italic;  
 	line-height: 1.44;  
 	color: #ee3643;
 }
 
 .contact {	
+	width: 270px;
+	margin-left: 70px;
 	text-align: center;	
 }
 
-.contact-phone {	
+.contact-phone {
+		
 	font-size: 21px;
 	font-weight: normal;    
     line-height: 1;   
@@ -131,6 +173,18 @@ input[type=search]:focus {
     line-height: 1.71;
     text-align: center;
     color: #32425c;
+}
+
+.bottom-menu-user-account {
+	width: 280px;
+	padding: 0;
+	margin: 0;
+	margin-left: 70px;	
+}
+
+.user-name-place {
+	width: 300px;
+	margin-left: 70px;	
 }
 
 .user-login,
@@ -184,21 +238,31 @@ input[type=search]:focus {
 	color: rgba(50, 66, 92, 0.3);
 }
 
-.main-navigation-menu {    
+.main-navigation-menu {		
+	margin-bottom: 40px;
     background-color: #32425c;
 	box-shadow: inset 0px -5px 0 0 #293449;
+	display: flex;
+	align-items: center;
 }
 
-.site-navigation{
+.site-navigation {
+	width: 870px;	
+	margin: 0 35px;	
+	padding: 0;   
+		
 	list-style: none;	
 }
 
-.site-navigation a {
+
+
+
+.site-navigation a {	
 	font-family: inherit;
     font-size: 17px;    
     line-height: 1;   
     color: #ffffff;
-	text-decoration: none;
+	text-decoration: none;	
 }
 
 .site-navigation a:hover {
@@ -208,6 +272,19 @@ input[type=search]:focus {
 .site-navigation a:active{ 
 	color:rgba(255, 255, 255, 0.5);
 	background-color: #1d2739;
+}
+
+.about-company{
+	display: flex;
+	justify-content: space-between;
+}
+
+.shipping{
+	width: 540px;	
+}
+
+.contact-company{
+	width: 300px;
 }
 
 .company-title,
@@ -263,6 +340,9 @@ input[type=search]:focus {
 }
 
 .breadcrumbs {
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
 	list-style: none;
 }
 
@@ -276,17 +356,51 @@ input[type=search]:focus {
 	text-decoration: none;
 }
 
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+}
+.catalog-title {
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	
+	font-size: 30px;
+	line-height: 1;
+	color: #32425c;
+	text-transform: uppercase;
+	font-weight: normal;
+	background-color: #f2f6f8;
+}
+
+.filter {
+	width: 220px;
+}
+
+.filter ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
 .filter fieldset {
+	margin: 0;	
+	padding: 0;
 	border: none;
 }
 
 .filter legend {
+	margin-bottom: 15px;
 	font-family: PT Sans, Arial, sans-serif;
     font-size: 17px;
     font-weight: bold;
     line-height: 1.76; 
     color: #000000;
 	text-transform: uppercase;
+}
+
+.filter-option {
+	margin-bottom: 20px;
 }
 
 .filter-input + label {
@@ -313,7 +427,16 @@ input[type=search]:focus {
 	border: solid 1px #e5e5e5;
     background-color: #ffffff;
 }
+
+.catalog {	
+	width: 700px;
+	margin-bottom: 50px;
+}
+
 .catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	
 	font-family: PT Sans,Arial, sans-serif;
     font-size: 17px;  
 	font-weight: bold;
@@ -322,11 +445,18 @@ input[type=search]:focus {
 	
 	background-color: #ffffff;
 }
-.list-item {	
+.list-item {
+	width: 218px;
+	margin-bottom: 20px;
+	margin-right: 20px;
 	text-align: center;
 	
 	border: solid 1px #e5e5e5;
     background-color: #ffffff;
+}
+
+.list-item:nth-child(3n) {
+	margin-right: 0;
 }
 
 .list-item a {
@@ -356,8 +486,68 @@ input[type=search]:focus {
     
 }
 
+.pagination-list {
+	padding: 0;
+	margin: 0;
+	
+	list-style: none;
+}
+
+.pagination-item a {
+	color: #000000;
+	
+	background-color: #ffffff;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+	background-color: #663d15;
+}
+
+.description {
+	background-color: #f2f6f8;
+}
+
+.description h2 {
+	margin: 0;
+	padding-top: 70px;
+	margin-bottom: 28px;
+	font-size: 30px;
+	line-height: 1;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: normal;
+	
+}
+
+.description p {
+	margin: 0;
+	padding-bottom: 0;
+	font-family: PTSans, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.85;
+	color: var(--black);
+}
+
 .main-footer {
+	margin-top: 65px;
 	background-color: #32425c;
+}
+
+.footer-up {
+	display: flex;
+}
+
+.footer-up nav {
+	display: flex;
+	flex-direction: column;	
+	width: 560;
+	margin-left: 52px;
+}
+
+.footer-menu-logo {
+	width: 380px;	
 }
 
 .footer-contact,
@@ -366,6 +556,18 @@ input[type=search]:focus {
 	font-size: 18px;    
     line-height: 24px;    
     color: #f3f7f9;
+}
+
+.footer-site-nav {
+	width: 550px;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-company-nav {
+	width: 540px;
+	margin: 0;
+	padding: 0;
 }
 
 .footer-site-nav,
@@ -404,20 +606,43 @@ input[type=search]:focus {
 	background-color: #293449;
 }
 
-.footer-bottom p {
+.footer-bottom  {	
 	font: inherit;
     font-size: 16px;  
-    line-height: 18px; 
+    line-height: 1.125; 
     color: #ffffff;
 }
 
-.social-buttons {	
+.footer-bottom .container {
+	display: flex;
+}
+
+.copyright {
+	width: 270px;
+	margin: 0;
+}
+
+.social-buttons {
+	width: 150px;
+	margin-left: 140px;
 	text-align: center;
 }
 
 .social-buttons a{	
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.feedback-text {
+	width: 140px;	
+	margin: 0;
+	margin-left: 110px;
+}
+
+.about-design-text{
+	width: 140px;	
+	margin: 0;
+	margin-left: 45px;
 }
 
 .feedback,
